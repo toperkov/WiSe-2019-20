@@ -1,6 +1,6 @@
 # Bežične senzorske mreže - Lab 2
 
-### FESB, smjer 110/111/112/114/120, akademska godina 2018/2019
+### FESB, smjer 110/111/112/114/120, akademska godina 2019/2020
 
 Low-level programiranje za ugradbene sustave je sasvim drugačije od programiranja za uređaje opće namjene, kao što su računala i mobiteli. Učinkovitost (u smislu brzine i prostora) je daleko važnije, jer su resursi na visokoj cijeni. Drugim rječima, veoma bitan naglasak se stavlja na **optimiziaciju** dijelova koda. Ova vježba je napravljena prema uputama na stranicama [Adafruit](https://learn.adafruit.com/memories-of-an-arduino/solving-memory-problems).
 
