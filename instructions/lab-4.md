@@ -39,8 +39,6 @@ Broj vanjskih Interrupta koje posjeduju mikrokontroleri se razlikuje. Na primjer
 |Due | all digital pins |
 |101 | all digital pins (Only pins 2, 5, 7, 8, 10, 11, 12, 13 work with CHANGE) |
 
-[/]: <> (![Arduino-interrupts-in-different-arduino-boards](https://user-images.githubusercontent.com/8695815/77925562-491c8e80-72a5-11ea-826a-9bb41a72a5e5.jpg)
-
 
 ### Što je Interrupts Service Routine?
 
