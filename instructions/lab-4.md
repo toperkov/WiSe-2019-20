@@ -184,3 +184,21 @@ void loop() {
   delay(1000);                       // wait for a second
 }
 ```
+
+
+## Reference
+
+1. https://circuits4you.com/2018/01/24/tutorial-on-arduino-watchdog-timer-setup/
+2. https://www.phippselectronics.com/introduction-arduino-interrupts/
+3. https://circuitdigest.com/microcontroller-projects/arduino-interrupt-tutorial-with-examples
+4. https://www.youtube.com/watch?v=YT3birSKLLU
+5. https://www.youtube.com/watch?v=QtyOiTw0oQc
+6. https://www.electronics-lab.com/project/using-interrupts-with-arduino/
+7. https://microcontrollerslab.com/use-arduino-interrupts-examples/
+8. https://learn.adafruit.com/multi-tasking-the-arduino-part-2/timers
+9. https://www.allaboutcircuits.com/technical-articles/using-interrupts-on-arduino/
+10. https://folk.uio.no/jeanra/Microelectronics/ArduinoWatchdog.html
+11. https://www.instructables.com/id/Arduino-Pushing-the-Limits-Arduino-Timers/
+12. https://forum.arduino.cc/index.php?topic=512462.0
+13. https://embedds.com/using-watchdog-timer-in-your-projects/
+14. https://arduino.stackexchange.com/questions/10230/arduino-watchdog-timer
