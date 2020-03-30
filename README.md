@@ -14,7 +14,7 @@ Laboratorijske vježbe su praktičnog tipa (hands-on). Student će realizirati s
 - [Lab 1](instructions/lab-1.md)
 - [Lab 2](instructions/lab-2.md)
 - [Lab 3](instructions/lab-3.md)
-- Lab 4
+- [Lab 4](instructions/lab-4.md)
 - Lab 5
 - Lab 6
 - Lab 7
