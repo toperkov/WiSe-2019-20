@@ -72,6 +72,10 @@ Domet ovisi o tome nalazi li se nRF24L01 vani na otvorenom ili u zatvorenom. Uob
 
 Ove postavke potrebno postaviti na predajnoj i prijemnoj strani uređaja.
 
+## Zadatak za domaći rad
+
+Prilagodite kod kojeg ćete zatražiti od profesora na način da se senzorski čvor budi sa periodom od 8 sekundi korištenjem watchdog timera, očitava temperaturu, vlažnost i osvjetljenje, te šalje senzorske podatke preko radio kanala korištenjem nRF24L01 primopredajnika.
+
 ## Korisni linkovi
  [1] http://arduinoinfo.mywikis.net/wiki/Nrf24L01-2.4GHz-HowTo  
  [2] http://forum.arduino.cc/index.php?topic=421081.0  
