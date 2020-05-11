@@ -82,3 +82,7 @@ U web pregledniku upišite `localhost:3000` da biste pristupili Grafani. Kliknit
 
 
 ![grafana](labs/lab-8/figs/grafana-influx.png)
+
+## Zadatak
+
+Zadatak studenta je kreirati dva panela (grafa) u Grafani koja će prikazivati vrijednosti temperature i vlažnosti iz InfluxDB baze podataka.
