@@ -26,7 +26,7 @@ Da biste pokrenuli aplikaciju:
 1. Instalirajte [docker-compose](https://docs.docker.com/compose/install/) na vaše računalo. Ako imate instaliran 
 [Docker Desktop](https://www.docker.com/products/docker-desktop), onda nije potrebna instalacija docker-compose.
 2. Klonirajte repozitorij na vaše vaše računalo.
-3. Pozicionirajte se u direktorij [lab-8](/labs/lab-8) u kojem se nalazi datoteka `docker-compose.yml` te pokrenite sljedeću komandu iz terminala:
+3. Pozicionirajte se u direktorij [lab-8](labs/lab-8) u kojem se nalazi datoteka `docker-compose.yml` te pokrenite sljedeću komandu iz terminala:
 ```
 docker-compose -f docker-compose.yml -p myProject up
 ```
