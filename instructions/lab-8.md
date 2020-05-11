@@ -58,7 +58,7 @@ Aplikacija kreira sljedeće volumene (za svaku od navedenih servisa) tako da se 
 
 ## Korisnici
 
-Aplikacija kreira dva admin korisnika - jednog za InfluxDB i jednog za Grafanu. Po defaultu, korisničko ime i lozinka obaju korisničkih računa je `admin`. Da biste poništili zadane vjerodajnice (korisničko ime i lozinku), prije pokretanja aplikacije postavite sljedeće varijable u datoteci [`docker-compose.yml`](/labs/lab-8/docker-compose.yml):
+Aplikacija kreira dva admin korisnika - jednog za InfluxDB i jednog za Grafanu. Po defaultu, korisničko ime i lozinka obaju korisničkih računa je `admin`. Da biste poništili zadane vjerodajnice (korisničko ime i lozinku), prije pokretanja aplikacije postavite sljedeće varijable u datoteci [`docker-compose.yml`](labs/lab-8/docker-compose.yml):
 
 * `INFLUXDB_USERNAME`
 * `INFLUXDB_PASSWORD`
@@ -71,7 +71,7 @@ Aplikacija kreira InfluxDB bazu podataka pod nazivom `db0`. Za pristup korisnič
 
 ## Node-RED
 
-Za pristup Node-RED servisu u web pregledniku upišite: `localhost:1880`. U direktoriju [`lab-8`](/labs/lab-8): se nalazi flowchart `flow.json` čiji ćete sadržaj ubaciti u Node-RED. Kao rezultat u nastavku ćete dobiti flowchart prikazan na slici ispod. Kao što možete primjetiti, Node-RED se spaja na MQTT broker te se pretplaćuje na određenu temu. Podaci koji stižu sa brokera se parsiraju i zapisuju u InfluxDB bazu podataka `db0`.
+Za pristup Node-RED servisu u web pregledniku upišite: `localhost:1880`. U direktoriju [`lab-8`](labs/lab-8): se nalazi flowchart `flow.json` čiji ćete sadržaj ubaciti u Node-RED. Kao rezultat u nastavku ćete dobiti flowchart prikazan na slici ispod. Kao što možete primjetiti, Node-RED se spaja na MQTT broker te se pretplaćuje na određenu temu. Podaci koji stižu sa brokera se parsiraju i zapisuju u InfluxDB bazu podataka `db0`.
 
 ![node-red](labs/lab-8/figs/node-red.png)
 
