@@ -1,4 +1,4 @@
-# Bežične senzorske mreže - Lab 6
+# Bežične senzorske mreže - Lab 7
 
 ### FESB, smjer 110/111/112/114/120, akademska godina 2019/2020
 
