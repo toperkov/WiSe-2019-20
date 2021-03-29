@@ -25,8 +25,8 @@
 
 #include <Adafruit_Sensor.h>
 #include <DHT.h>
-#include <Wire.h>
 #include <BH1750.h>
+#include <Wire.h>
 
 #define DHTPIN 2     // what digital pin we're connected to
 
@@ -56,8 +56,12 @@ void setup() {
   Serial.println("DHTxx test!");
   dht.begin();
 
-  lightMeter.begin(BH1750::CONTINUOUS_HIGH_RES_MODE);
-  Serial.println(F("BH1750 Test"));
+  // begin returns a boolean that can be used to detect setup problems.
+  if (lightMeter.begin(BH1750::CONTINUOUS_HIGH_RES_MODE)) {
+    Serial.println(F("BH1750 Advanced begin"));
+  } else {
+    Serial.println(F("Error initialising BH1750"));
+  }
 
 }
 
