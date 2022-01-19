@@ -1,7 +1,7 @@
 version: '2'
 services:
   influxdb:
-    image: influxdb:latest
+    image: influxdb:1.8-alpine
     ports:
       - '8086:8086'
     volumes:
@@ -41,7 +41,7 @@ services:
     ports:
       - "1880:1880"
     volumes:
-      - node-red-data
+      - node-red-data:/data
 volumes:
   influxdb-storage:
   chronograf-storage:
